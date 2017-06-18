@@ -1,0 +1,24 @@
+{
+  "name": "@lifaon74/float",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Float.js",
+  "scripts": {
+    "start": "gulp watch",
+    "publish": "npm publish dist/es5/"
+  },
+  "author": "Valentin Richard",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/lifaon74/float"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/core-js": "latest",
+    "@types/node": "latest",
+    "gulp": "latest",
+    "gulp-typescript": "latest",
+    "typescript": "latest",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
